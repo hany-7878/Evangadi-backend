@@ -36,7 +36,7 @@ app.get("/create-table", createTables);
 
 // PORT
 // const PORT = 3456;
-const PORT = process.env.DB_PORT || 3456;
+const PORT = process.env.PORT || 3456;
 
 
 const start = async () => {

@@ -11,7 +11,7 @@ const dbConnection = mysql2.createPool({
   connectionLimit: 10,
   //   socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
 });
-console.log(process.env.DB_PASSWORD);
+
 
 // module.exports = dbConnection;
 module.exports = dbConnection.promise();
